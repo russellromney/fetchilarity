@@ -24,6 +24,10 @@ It will ask for two pathnames and spit out the similarity score of the two texts
 
 This is a basic Flask API with three endpoints:
 
+```
+python api.py
+```
+
 `http:localhost:5000/`: returns a message describing how to use it
 
 `http:localhost:5000/api`: a POST endpoint that accepts a JSON payload like `{'text1':'a','text2':'b'}` and returns the similarity score for the two texts
@@ -34,6 +38,10 @@ This is a basic Flask API with three endpoints:
 #### Dash web app
 
 This is a simple web app. You input two texts and it shows the similarity score between them. Warning: this is addictive. 
+
+```
+python webapp.py
+```
 
 
 ---
