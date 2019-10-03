@@ -11,6 +11,8 @@ dash-table==4.3.0
 Flask==1.1.1
 Flask-Compress==1.4.0
 future==0.17.1
+gunicorn==19.9.0
+heroku==0.1.4
 idna==2.8
 isort==4.3.21
 itsdangerous==1.1.0
@@ -20,6 +22,7 @@ MarkupSafe==1.1.1
 mccabe==0.6.1
 plotly==4.1.1
 pylint==2.4.2
+python-dateutil==1.5
 requests==2.22.0
 retrying==1.3.3
 six==1.12.0
