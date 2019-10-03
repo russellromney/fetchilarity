@@ -28,11 +28,11 @@ This is a basic Flask API with three endpoints:
 python api.py
 ```
 
-`http:localhost:5000/`: returns a message describing how to use it
+`http://localhost:5000/`: returns a message describing how to use it
 
-`http:localhost:5000/api`: a POST endpoint that accepts a JSON payload like `{'text1':'a','text2':'b'}` and returns the similarity score for the two texts
+`http://localhost:5000/api`: a POST endpoint that accepts a JSON payload like `{'text1':'a','text2':'b'}` and returns the similarity score for the two texts
 
-`http:localhost:5000/api/raw`: a GET endpoint that accepts a simple URL like `.../api/raw/text1 body/text2 body` and returns the similarity score for the two texts. 
+`http://localhost:5000/api/raw`: a GET endpoint that accepts a simple URL like `.../api/raw/text1 body/text2 body` and returns the similarity score for the two texts. 
 
 
 #### Dash web app
