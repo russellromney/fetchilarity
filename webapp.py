@@ -8,6 +8,7 @@ import dash_core_components as dcc
 from utilities import fetchilarity_score
 
 app = dash.Dash(__name__,external_stylesheets=[dbc.themes.BOOTSTRAP])
+server = app.server
 
 app.layout = html.Div([
     dbc.Container(
