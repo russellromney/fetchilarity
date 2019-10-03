@@ -43,5 +43,7 @@ This is a simple web app. You input two texts and it shows the similarity score 
 python webapp.py
 ```
 
+Live at `http://localhost:8050`
+
 
 ---
