@@ -28,5 +28,5 @@ retrying==1.3.3
 six==1.12.0
 typed-ast==1.4.0
 urllib3==1.26.5
-Werkzeug==0.16.0
+Werkzeug==2.2.3
 wrapt==1.11.2
